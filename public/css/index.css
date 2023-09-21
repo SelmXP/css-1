@@ -1,0 +1,146 @@
+/*************************** Урок 1 *************************/
+/* ========= 1 ========= Урок 1 ==== */
+:root {
+    background: white;
+}
+/* ========= 2 ========= Урок 1 ==== */
+* {
+    color: black;
+}
+/* ========= 3 ========= Урок 1 ==== */
+h1 {
+    background: blue;
+}
+/* ========= 4 ========= Урок 1 ==== */
+.green {
+    color: green;
+}
+/* ========= 5 ========= Урок 1 ==== */
+#blue {
+    color: blue;
+}
+/* ========= 6 ========= Урок 1 ==== */
+.box > p {
+    background: red;
+}
+.box > div {
+    background: green;
+}
+/* ========= 7 ========= Урок 1 ==== */
+.brown {
+    background: brown;
+    color: white;
+}
+/* ========= 8 ========= Урок 1 ==== */
+ul > li {
+    background: red;
+}
+/* ========= 9 ========= Урок 1 ==== */
+button.header-button + span {
+    background: red;
+}
+/* ========= 10 ======== Урок 1 ==== */
+.susid ~ p {
+    background: blue;
+    color: white;
+}
+/* ========= 11 ======== Урок 1 ==== */
+.salo, #bread {
+    background: yellow;
+}
+
+/*************************** Урок 2 *************************/
+/* ========= 1 ========= Урок 2 ==== */
+.first-task li:first-child {
+    color: white;
+}
+/* ========= 2 ========= Урок 2 ==== */
+.second-task ul + ul li:first-child {
+    color: yellow;
+}
+/* ========= 3 ========= Урок 2 ==== */
+.third-task ul:last-child li:first-child {
+    background: yellow;
+}
+/* ========= 4 ========= Урок 2 ==== */
+.four-task li:last-child {
+    background: yellow;
+}
+/* ========= 5 ========= Урок 2 ==== */
+.five-task ul:last-child li:last-child {
+    color: white;
+}
+/* ========= 6 ========= Урок 2 ==== */
+.only-child-task div:only-child {
+    color: red;
+}
+/* ========= 7 ========= Урок 2 ==== */
+.seven-task p:first-of-type {
+    background: red;
+}
+/* ========= 8 ========= Урок 2 ==== */
+.eight-task p:last-of-type {
+    background: red;
+}
+/* ========= 9 ========= Урок 2 ==== */
+.nine-task p:only-of-type {
+    background: yellow;
+}
+
+/*************************** Урок 3 *************************/
+/* ========= 1 ========= Урок 3 ==== */
+a[href] {
+    color: white;
+}
+/* ========= 2 ========= Урок 3 ==== */
+li[value] {
+    color: yellow;
+}
+/* ========= 3 ========= Урок 3 ==== */
+li[value="3"] {
+    background: red;
+}
+/* ========= 4 ========= Урок 3 ==== */
+button[class~="primary"] {
+    background: blue;
+}
+/* ========= 5 ========= Урок 3 ==== */
+button[class|="secondary"] {
+    background: red;
+}
+/* ========= 6 ========= Урок 3 ==== */
+.lesson-three-task-six li[class^="b"] {
+    color: green;
+    background: white;
+}
+/* ========= 7 ========= Урок 3 ==== */
+.lesson-three-task-seven li[class*="on"] {
+    color: green;
+    background: white;
+}
+/* ========= 8 ========= Урок 3 ==== */
+.lesson-three-task-eight span[class$="s"] {
+    color: blue;
+    background: white;
+}
+/* ========= 9 ========= Урок 3 ==== */
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+/* ========= 10 ======== Урок 3 ==== */
+.lesson-three-task-ten p::first-line {
+    background: yellow;
+}
+/* ========= 11 ======== Урок 3 ==== */
+.lesson-three-task-eleven input::placeholder {
+    background: red;
+}
+/* ========= 12 ======== Урок 3 ==== */
+.lesson-three-task-twelve li::before {
+    content: "➤";
+}
+/* ========= 13 ======== Урок 3 ==== */
+.lesson-three-task-thirteen li::after {
+    content: "➤";    
+}
+
